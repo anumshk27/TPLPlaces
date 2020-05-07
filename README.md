@@ -15,7 +15,7 @@ Before you can start using the TPLMaps Platform APIs and SDKs, you must sign up 
 ### Step 1: Get the latest version of Xcode
 To build a project using the TPLPlaces SDK for iOS, you need **version 11.0** or later of [Xcode](https://developer.apple.com/xcode/).
 
-### Step 2: Generate Config File
+### Step 2: Generate tplservices File
 To use the TPLPlaces SDK for iOS, you must get **tplservices.plist** file which you can then add to your iOS application. The **tplservices.plist** is used to track API requests associated with your project for usage and billing.
 
 **Get the latest tplservices file**
