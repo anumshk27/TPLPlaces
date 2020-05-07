@@ -69,9 +69,9 @@ To add a full-screen control to your app:
 1.  Create a UI element in your main app to launch the autocomplete UI control, for example a touch handler on a  `UIButton`.
 2.  Implement the  **`TPLAutocompleteViewControllerDelegate`** protocol in the parent view controller.
 3.  Create an instance of  **`TPLAutocompleteViewController`** and assign the parent view controller as the delegate property.
-4.  Present the  **`TPLAutocompleteViewController`** using  `[self presentViewController...]`.
-5.  Handle the user's selection in the   **`didAutocompleteWithPlace` ** delegate method.
-6.  Dismiss the controller in the   **`didAutocompleteWithPlace` **,   **`didFailAutocompleteWithError` **, and   **`wasCancelled` **  delegate methods.
+4.  Present the  **`TPLAutocompleteViewController`** using   `[self presentViewController...]`.
+5.  Handle the user's selection in the   **`didAutocompleteWithPlace`** delegate method.
+6.  Dismiss the controller in the   **`didAutocompleteWithPlace`**,   **`didFailAutocompleteWithError`**, and   **`wasCancelled`**  delegate methods.
 
 ```objective-c
 #import "ViewController.h"
