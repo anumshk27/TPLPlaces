@@ -38,7 +38,7 @@ Create a `Podfile` for the TPLMaps SDK for iOS and use it to install the API and
 
 2. Create a file named `Podfile` in your project directory. This file defines your project's dependencies. 
 
-3. Edit the `Podfile` and add your dependencies. Here is an example which includes the dependencies you need for the TPLMaps SDK for iOS:
+3. Edit the `Podfile` and add your dependencies. Here is an example which includes the dependencies you need for the TPLPlaces SDK for iOS:
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
