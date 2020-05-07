@@ -1,0 +1,6 @@
+framework module TPLPlaces {
+  umbrella header "TPLPlaces.h"
+
+  export *
+  module * { export * }
+}
