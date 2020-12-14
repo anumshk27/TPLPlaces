@@ -39,11 +39,11 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license = { :type => 'MIT', :text => <<-LICENSE
+  spec.license = { :type => 'MIT', :text => <<-LICENSE
                 
                    MIT License
 
-Copyright (c) 2020 TPLMaps
+Copyright (c) 2017 TPLMaps
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -63,7 +63,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
                  LICENSE
-               }
+               }  
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -106,11 +106,11 @@ SOFTWARE.
 
   # spec.source       = { :git => "http://EXAMPLE/TPLPlaces.git", :tag => "#{spec.version}" }
 
-  s.platform = :ios, '9.3'
-  s.ios.deployment_target = '9.3'
-  s.source       = { :git => "https://github.com/anumshk27/TPLPlaces.git", :tag => "#{spec.version}" }
-  s.ios.vendored_frameworks = 'TPLPlaces.framework'
-  s.ios.framework    = 'UIKit', 'CoreLocation'
+  spec.platform = :ios, '9.3'
+  spec.ios.deployment_target = '9.3'
+  spec.source       = { :git => "https://github.com/anumshk27/TPLPlaces.git", :tag => "#{spec.version}" }
+  spec.ios.vendored_frameworks = 'TPLPlaces/TPLPlaces.framework'
+  spec.ios.framework    = 'UIKit', 'CoreLocation'
 
 
 
